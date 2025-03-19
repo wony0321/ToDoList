@@ -1,0 +1,67 @@
+@import './basic.css';
+
+body {
+  margin: auto;
+  background-image: url(./olaf.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.nav1 {
+  background-color: rgb(92, 133, 183);
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.logo {
+  font-family: 'Ownglyph_ParkDaHyun';
+  font-size: x-large;
+}
+
+.logo > img {
+  width: 13%;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu > a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: larger;
+}
+
+#page-content {
+  margin: 50px;
+}
+
+#page-content > a {
+  font-size: 80px;
+  color: rgb(49, 73, 102);
+  text-decoration-line: none;
+}
+
+#page-content > a:hover {
+  color: rgb(92, 133, 183);
+}
+
+#page-content > a:active {
+  outline: none;
+  text-decoration: none;
+  color: rgb(49, 73, 102);
+}
