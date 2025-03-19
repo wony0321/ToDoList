@@ -10,3 +10,10 @@
 
 <img src="플로우차트.drawio.png">
 <img src="화면 캡처 2025-03-19 095540.png">
+
+### 기술 스택
+
+- HTML
+- CSS
+- JavaScript
+- LocalStorage
