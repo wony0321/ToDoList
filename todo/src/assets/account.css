@@ -1,0 +1,85 @@
+@import './main.css';
+
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  padding: 2rem;
+  margin-top: 15vh;
+  background-color: #f1f0f7;
+  border-radius: 20px;
+  box-shadow: 9px 11px 5px 0px rgba(125, 124, 125, 1);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: rgb(92, 133, 183);
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 50%;
+  margin-bottom: 20px;
+  min-width: 300px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: rgb(92, 133, 183);
+  box-shadow: 0 0 5px rgba(92, 133, 183, 0.5);
+}
+
+input[type='submit'] {
+  background-color: rgb(92, 133, 183);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type='submit']:hover {
+  background-color: rgb(100, 170, 255);
+}
+
+a {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgb(92, 133, 183);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgb(100, 170, 255);
+}
+
+span {
+  color: rgb(162, 172, 185);
+}

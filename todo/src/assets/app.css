@@ -1,0 +1,43 @@
+@import './main.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.nav1 {
+  background-color: rgb(92, 133, 183);
+  height: 13vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.logo {
+  width: 18%;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu > a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: larger;
+}
